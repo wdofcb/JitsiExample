@@ -1,0 +1,20 @@
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: #7385a3;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.ml-2 {
+  margin-left: 5px;
+}
+.d-none {
+  display: none;
+}

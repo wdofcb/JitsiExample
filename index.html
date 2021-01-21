@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Video Conference</title>
+</head>
+<body >
+
+    <div class="center">
+        <input type="text"  name="" id="username">
+        <input type="text" class="ml-2" name="" id="email">
+        <button id="startCall" class="btn ml-2"> Start</button>
+    </div>
+    <div class="center d-none" id="controlls">
+        <button class="btn" id="camera">Camera</button>
+        <button class="btn ml-2" id="audio">Audio</button>
+        <button class="btn ml-2" id="currentDevices">Current Devices</button>
+        <button class="btn ml-2" id="info">Info</button>
+        <button class="btn ml-2" id="chat">Chat</button>
+        <button class="btn ml-2" id="share">Share</button>
+        <button class="btn ml-2" id="end">End</button>
+        <button class="btn ml-2" id="muteAll">Mute ALl </button>
+        <button class="btn ml-2" id="start">Start Record </button>
+        <button class="btn ml-2" id="stop">Stop Record </button>
+    </div>
+    <div id="meeting" class="d-none"></div>
+
+</body>
+</html>
+<script src='https://online.parrot.house/external_api.js'></script>
+<script src='./index.js'></script>
+ 
